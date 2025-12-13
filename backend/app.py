@@ -26,6 +26,12 @@ MOOD_TO_YT = {
     'neutral': 'Chill background music'
 }
 
+def newfunc():
+    pass
+
+
+
+
 @app.route('/analyze', methods=['POST'])
 def analyze():
     data = request.get_json() or {}
